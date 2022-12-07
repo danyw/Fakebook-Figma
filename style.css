@@ -1,85 +1,97 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* colour palette */
+:root {
+  --baby-powder: rgb(246, 247, 241);
+  --dark-purple: rgb(41, 24, 46);
+  --orange-soda: rgb(241, 76, 54);
+  --dark-olive-green: rgb(67, 107, 44);
+  --orange-yellow: rgb(236, 178, 13);
+  --middle-blue: rgb(133, 210, 216);
+  --orchid-crayola: rgb(221, 149, 195);
 }
 html {
-    font-size: 20px;
+  font-size: 20px;
 }
 body {
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
 }
 
 /* header style start */
 header {
-    background-color: rgb(41, 24, 46);
-    color: rgb(246, 247, 241);
-    
+  background-color: var(--dark-purple);
+  color: rgb(246, 247, 241);
 }
 .fakebook {
-    color: rgb(241, 76, 54);
-    text-align: center;
-    font-weight: 500;
-    font-size: 32px;
-    letter-spacing: 0.15em;
-    padding-top: 1rem;
+  color: var(--orange-soda);
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 0.15em;
+  padding-top: 1rem;
 }
 
 h1 {
-    padding: 184px 0 25px 0;
-    font-weight: 500;
-    font-size: 2rem;
-    text-align: center;
-    letter-spacing: 0.15em;
+  padding: 184px 0 25px 0;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.15em;
 }
 .header-p {
-    text-align: center;
-    padding: 0 25px 2rem 25px;
+  text-align: center;
+  padding: 0 25px 2rem 25px;
 }
 .getStarted-button {
-text-align: center;
-padding-bottom: 266px;
-/* font-size: 1em; */
+  text-align: center;
+  padding-bottom: 266px;
+  /* font-size: 1em; */
 }
 .getStarted-button button {
-    background-color: rgb(241, 76, 54);
-    font-size: inherit;
-    font-weight: 500;
-    color: rgb(246, 247, 241);
-    letter-spacing: 0.15rem;
-    width: 250px;
-    height: 60px;
-    border-radius: 50px;
+  background-color: var(--orange-soda);
+  font-size: inherit;
+  font-weight: 500;
+  color: rgb(246, 247, 241);
+  letter-spacing: 0.15rem;
+  width: 250px;
+  height: 60px;
+  border-radius: 50px;
 }
 /* header style end */
 
-/* hero style start */
-.hero {
-    text-align: center;
-    background-color: rgb(246, 247, 241);
-    ;
-    color: rgb(41, 24, 46);
+/* mission statement style start */
+.phone {
+  text-align: center;
+  background-color: var(--baby-powder);
+  color: var(--dark-purple);
 }
-.hero img {
-    display: block;
-    margin: 44px auto 24.66px auto;
-    max-width: 293px;
-    width: 100%;
+.phone img {
+  display: block;
+  margin: 44px auto 24.66px auto;
+  max-width: 293px;
+  width: 100%;
 }
-.hero h2 {
-    /* font-family: inherit; */
-    font-size: 1.2rem;
-    font-weight: 500;
-    padding-left: 25px;
-    padding-right: 25px;
-    letter-spacing: 0.15em;
+.phone h2 {
+  /* font-family: inherit; */
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  letter-spacing: 0.15em;
 }
-.hero p {
-    font-size: 0.8rem;
-    /* padding-top: 15px; */
-    /* padding-bottom: 45px; */
-    padding: 15px 25px 45px 15px;
+.phone p {
+  font-size: 0.8rem;
+  /* padding-top: 15px; */
+  /* padding-bottom: 45px; */
+  padding: 0.8rem 1.2rem 2.2rem 0.8rem;
 }
-/* hero style end */
+.mission-statement h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+/* mission statement style end */
