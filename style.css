@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Lexend Deca", sans-serif;
 }
 /* colour palette */
 :root {
@@ -17,7 +18,6 @@ html {
   font-size: 20px;
 }
 body {
-  font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
 }
 
@@ -30,7 +30,7 @@ header {
   color: var(--orange-soda);
   text-align: center;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 1.6rem;
   letter-spacing: 0.15em;
   padding-top: 1rem;
 }
@@ -44,7 +44,7 @@ h1 {
 }
 .header-p {
   text-align: center;
-  padding: 0 25px 2rem 25px;
+  padding: 0 1.25rem 2rem 1.25rem;
 }
 .getStarted-button {
   text-align: center;
@@ -55,11 +55,12 @@ h1 {
   background-color: var(--orange-soda);
   font-size: inherit;
   font-weight: 500;
-  color: rgb(246, 247, 241);
+  color: var(--baby-powder);
   letter-spacing: 0.15rem;
-  width: 250px;
+  width: 100%;
+  max-width: 12.5rem;
   height: 60px;
-  border-radius: 50px;
+  border-radius: 5rem;
 }
 /* header style end */
 
@@ -71,27 +72,94 @@ h1 {
 }
 .phone img {
   display: block;
-  margin: 44px auto 24.66px auto;
+  margin: 2.2rem auto 1.25rem auto;
   max-width: 293px;
   width: 100%;
 }
-.phone h2 {
-  /* font-family: inherit; */
+.phone article h2 {
   font-size: 1.2rem;
   font-weight: 500;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  padding: 0 1.25rem;
   letter-spacing: 0.15em;
 }
-.phone p {
+.phone article p {
   font-size: 0.8rem;
-  /* padding-top: 15px; */
-  /* padding-bottom: 45px; */
-  padding: 0.8rem 1.2rem 2.2rem 0.8rem;
+  padding: 0.75rem 1.25rem 2.25rem 1.25rem;
 }
 .mission-statement h2 {
   text-align: center;
   font-weight: 500;
   font-size: 1.2rem;
+  color: var(--dark-purple);
+  letter-spacing: 0.15em;
+  padding: 2.2rem 1.25rem 2.5rem 1.25rem;
+}
+.mission-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  /* align-items: center; */
+  /* justify-items: center; */
+}
+.mission-container article {
+  /* align-items: center; */
+  text-align: center;
+  padding: 1.25rem 3.75rem;
+}
+.unity-article {
+  color: var(--orange-soda);
+}
+.privacy-article {
+  color: var(--dark-olive-green);
+}
+.clarity-article {
+  color: var(--orange-yellow);
+}
+.mission-container article h3 {
+  font-size: 1rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.15rem;
+  font-weight: 500;
+}
+.mission-container img {
+  width: 48px;
+}
+.mission-container p {
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 /* mission statement style end */
+
+/* footer style start */
+footer {
+  background-color: var(--dark-purple);
+}
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  color: var(--orange-yellow);
+  padding-bottom: 5rem;
+}
+.footer-menu li {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.15rem;
+  padding: 0.25rem 0;
+}
+.footer-end {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.15rem;
+  color: var(--baby-powder);
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+/* footer style end */
+
+@media screen and (min-width: 600px){
+    
+}
